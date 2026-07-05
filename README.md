@@ -2,16 +2,18 @@
 
 **Local-first secrets for macOS workspaces, terminal tools, SSH, and coding agents.**
 
+Author: [James Liang](https://github.com/james-liang-cs)
+
 Authsia keeps credentials in your Mac's Apple security stack while giving developers a clean way to run commands, wire project env refs, approve agent access, and use SSH keys without turning the shell into a bag of long-lived secrets.
 
 ```sh
-brew install --cask jamesliang-cs/authsia/authsia
+brew install --cask james-liang-cs/authsia/authsia
 ```
 
 Already installed from the DMG?
 
 ```sh
-brew install --cask --adopt jamesliang-cs/authsia/authsia
+brew install --cask --adopt james-liang-cs/authsia/authsia
 ```
 
 Requires macOS 15 or later.
@@ -34,14 +36,14 @@ Modern developer work crosses terminals, repo-local env files, AI coding agents,
 Install Authsia.app and the bundled `authsia` CLI:
 
 ```sh
-brew install --cask jamesliang-cs/authsia/authsia
+brew install --cask james-liang-cs/authsia/authsia
 ```
 
 If Homebrew asks you to trust the tap first:
 
 ```sh
-brew trust jamesliang-cs/authsia
-brew install --cask jamesliang-cs/authsia/authsia
+brew trust james-liang-cs/authsia
+brew install --cask james-liang-cs/authsia/authsia
 ```
 
 Authsia can update itself through Sparkle. To ask Homebrew to upgrade the cask-managed app path:
@@ -139,6 +141,7 @@ authsia -> /Applications/Authsia.app/Contents/Helpers/authsia
 - User guide: https://authsia.clarionstack.com/user-guide.html
 - Changelog: https://authsia.clarionstack.com/changelog
 - Release feed: https://authsia.clarionstack.com/appcast.xml
+- Homebrew tap: https://github.com/james-liang-cs/homebrew-authsia
 
 ## Tap Maintenance
 
