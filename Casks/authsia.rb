@@ -13,7 +13,7 @@ cask "authsia" do
   end
 
   auto_updates true
-  depends_on macos: :tahoe
+  depends_on macos: :sequoia
 
   app "Authsia.app"
   binary "#{appdir}/Authsia.app/Contents/Helpers/authsia"
