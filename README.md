@@ -3,8 +3,8 @@
 Local-first secrets for developers, installed through Homebrew.
 
 Authsia gives you a macOS vault, the `authsia` CLI, guarded workspace commands,
-agent JIT approvals, SSH signing, audit history, and browser autofill without
-handing secrets to your shell or AI tooling by default.
+agent JIT approvals, SSH signing, and audit history without handing secrets to
+your shell or AI tooling by default.
 
 ## Install
 
