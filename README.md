@@ -52,6 +52,23 @@ authsia workspace run -- npm test
 
 Use `authsia init bash` if your shell is bash.
 
+## Uninstall
+
+Remove the app, CLI symlink, and running launch agents:
+
+```sh
+brew uninstall --cask authsia
+```
+
+Remove support files too:
+
+```sh
+brew uninstall --zap --cask authsia
+```
+
+Vault secrets are stored in Apple Keychain and are not removed by uninstall or
+zap.
+
 ## Useful Links
 
 - Website: https://authsia.clarionstack.com
