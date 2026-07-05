@@ -16,7 +16,7 @@ Already installed from the DMG?
 brew install --cask --adopt james-liang-cs/authsia/authsia
 ```
 
-Requires macOS 15 or later.
+Requires macOS 26 or later.
 
 ## Why Authsia
 
