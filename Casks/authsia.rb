@@ -1,8 +1,8 @@
 cask "authsia" do
-  version "1.5.9"
-  sha256 "5290d04f09aa77975908ddfcf9660b04485a3a4f039bdf2ceae333e03c45cb67"
+  version "1.5.10"
+  sha256 "8fa6402ece7bad866725f22e7bbe8c5c693c38d3ca808f697913c7c73ca0a855"
 
-  url "https://authsia.clarionstack.com/Authsia/Authsia-1.5.9.dmg?v=20260706052058"
+  url "https://authsia.clarionstack.com/Authsia/Authsia-#{version}.dmg"
   name "Authsia"
   desc "Local-first secret manager with a CLI, agent JIT approvals, and 2FA"
   homepage "https://authsia.clarionstack.com/"
