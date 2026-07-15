@@ -139,6 +139,11 @@ authsia -> /Applications/Authsia.app/Contents/Helpers/authsia
 - Product site: https://authsia.clarionstack.com
 - CLI guide: https://authsia.clarionstack.com/cli.html
 - User guide: https://authsia.clarionstack.com/user-guide.html
+- Public security core: https://github.com/james-liang-cs/authsia
+- Security and disclosure: https://authsia.clarionstack.com/security.html
+- Trust map: https://github.com/james-liang-cs/authsia/blob/main/TRUST.md
+- Verify releases: https://authsia.clarionstack.com/verify.html
+- Public source releases: https://github.com/james-liang-cs/authsia/releases
 - Changelog: https://authsia.clarionstack.com/changelog
 - Release feed: https://authsia.clarionstack.com/appcast.xml
 - Homebrew tap: https://github.com/james-liang-cs/homebrew-authsia
