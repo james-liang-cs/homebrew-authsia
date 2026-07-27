@@ -1,6 +1,6 @@
 cask "authsia" do
-  version "1.7.2"
-  sha256 "96f8ceb3b999d348a3e06c260dd625e453f4de561c1b60c953ea9e9a41a6485f"
+  version "1.7.3"
+  sha256 "b838f93dd3d1ece136fb809cb29c566de822e6361b3af2a81252ee7a899d08f2"
 
   url "https://authsia.clarionstack.com/Authsia/Authsia-#{version}.dmg"
   name "Authsia"
