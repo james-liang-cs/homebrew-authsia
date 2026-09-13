@@ -1,8 +1,7 @@
 # Security policy
 
-Authsia vulnerability reports belong in the main public security-core
-repository. Follow its [security policy](https://github.com/james-liang-cs/authsia/blob/main/SECURITY.md)
-and use [GitHub private vulnerability reporting](https://github.com/james-liang-cs/authsia/security/advisories/new).
+Authsia vulnerability reports belong with the product, not this tap. Follow
+the [product security page](https://authsia.clarionstack.com/security.html).
 
 Do not include real secrets, seeds, private keys, passphrases, or one-time codes
 in a report.
