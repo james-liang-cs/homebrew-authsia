@@ -114,13 +114,12 @@ brew trust james-liang-cs/authsia
 brew install --cask james-liang-cs/authsia/authsia
 ```
 
-Authsia can update itself through Sparkle. To ask Homebrew to upgrade the
-cask-managed app path:
-
-```sh
-brew update
-brew upgrade --cask --greedy authsia
-```
+Authsia updates itself in `/Applications` through Sparkle. Leave that as the
+updater. `brew upgrade --cask --greedy authsia` re-downloads the DMG and
+Homebrew copies the whole `.app` back into `Caskroom` as a backup before
+replacing `/Applications/Authsia.app` — that is expected Homebrew behavior,
+not a second product install. Use greedy upgrade only when Sparkle cannot
+update, then reclaim old copies with `brew cleanup authsia`.
 
 Remove the app, CLI symlink, and running launch agents:
 
