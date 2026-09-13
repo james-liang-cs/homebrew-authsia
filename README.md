@@ -119,6 +119,16 @@ authsia ssh adopt --path ~/.ssh --dry-run
 authsia ssh adopt --path ~/.ssh --yes --folder Infra/SSH
 ```
 
+## What This Repository Is
+
+This is the public Homebrew tap. It contains the cask that installs the
+notarized Authsia app and CLI. It does not contain application source.
+
+Verify a downloaded release with Developer ID signing and artifact hashes on
+the [verify page](https://authsia.clarionstack.com/verify.html). Report
+vulnerabilities on the [security page](https://authsia.clarionstack.com/security.html),
+not in this tap.
+
 ## What This Tap Installs
 
 This cask installs:
@@ -139,11 +149,8 @@ authsia -> /Applications/Authsia.app/Contents/Helpers/authsia
 - Product site: https://authsia.clarionstack.com
 - CLI guide: https://authsia.clarionstack.com/cli.html
 - User guide: https://authsia.clarionstack.com/user-guide.html
-- Public security core: https://github.com/james-liang-cs/authsia
 - Security and disclosure: https://authsia.clarionstack.com/security.html
-- Trust map: https://github.com/james-liang-cs/authsia/blob/main/TRUST.md
-- Verify releases: https://authsia.clarionstack.com/verify.html
-- Public source releases: https://github.com/james-liang-cs/authsia/releases
+- Verify a release: https://authsia.clarionstack.com/verify.html
 - Changelog: https://authsia.clarionstack.com/changelog
 - Release feed: https://authsia.clarionstack.com/appcast.xml
 - Homebrew tap: https://github.com/james-liang-cs/homebrew-authsia
