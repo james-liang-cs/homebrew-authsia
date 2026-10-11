@@ -1,6 +1,6 @@
 cask "authsia" do
-  version "1.7.20"
-  sha256 "a43fa70668f49dd5d35b1dcb486fe33e5cface7de9a834d41b2a60eca902ca34"
+  version "1.8.0"
+  sha256 "bbb678d02dd29d3284a751425dfc1299fdacac5454fc1ae3113e4cffba414d4b"
 
   url "https://authsia.clarionstack.com/Authsia/Authsia-#{version}.dmg?source=homebrew"
   name "Authsia"
